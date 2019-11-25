@@ -87,7 +87,16 @@ function getSongInfo(){
 
 function getConcertInfo(){
     axios.get(queryUrl).then(function(response){
-        console.log(response);
+        /*Name of the venue
+
+        Venue location
+
+        Date of the Event (use moment to format this as "MM/DD/YYYY") */
+
+        console.log(`Venue: ${response.data[0].venue.name}`);
+        console.log(`Venue Location: ${response.data[0].venue.country}`);
+
+        //console.log(response);
 
     }).catch(function(error){
         console.log(error);
