@@ -6,7 +6,7 @@ Liri app accepts one of the commands from a pre-defined set. It also accpets use
 
 ## App Overview
 
-The app makes use following node modules=
+The app makes use following node modules-
 * Axios
 
 * Dotenv
@@ -14,6 +14,13 @@ The app makes use following node modules=
 * Moment
 
 * Node-spotofy-api
+
+The file structure of the app- 
+* liri.js 
+
+* .env
+
+* keys.js 
 
 
 ## Instructions to run the app
