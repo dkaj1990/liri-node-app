@@ -27,9 +27,17 @@ The file structure of the app-
 
 ## Screenshots
 
+1. Concert information
+
+2. Spotify song information
+
+3. OMDB movie information
+
+4. Do what it says
+
 ## Deployed version of the app
+ https://github.com/dkaj1990/liri-node-app
 
 ## Technologies
 
-## Role
 
