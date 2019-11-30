@@ -30,9 +30,9 @@ switch(operation){
 function getMovieInfo(){
 
     axios.get(queryUrl).then(function(response){
-        console.log(response);
+       // console.log(response);
 //         * Title of the movie.
-    console.log(`------------------------------------------------------------------------`);    
+    console.log(`-\n \n-----------------------------------------------------------------------`);    
     console.log(`Title: ${response.data.Title}`);
    
 //   * Year the movie came out.
@@ -67,6 +67,7 @@ function getMovieInfo(){
 }
 
 function getSongInfo(){
+
     spotify.search({ type: "track", query: input }, function(err, result) {
        
 
@@ -74,11 +75,15 @@ function getSongInfo(){
             console.log(err);
         };
 
-    console.log(result);
-    console.log("Artist: " + result.tracks.items[0].artists[0].name);
+    //console.log(result);
+    
+    console.log("\n Artist: " + result.tracks.items[0].artists[0].name);
+    console.log(`--------------------------------------------------------`);
     console.log("Song Title: " + result.tracks.items[0].name);
-    console.log("Preview This Track: " + result.tracks.items[0].preview_url);
+    console.log(`--------------------------------------------------------`);
+   // console.log("Preview This Track: " + result.tracks.items[0].preview_url);
     console.log("Album: " + result.tracks.items[0].album.name);
+    console.log(`--------------------------------------------------------`);
  
 
 });
