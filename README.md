@@ -30,8 +30,10 @@ The file structure of the app-
 1. Concert information
 
 2. Spotify song information
+![](spotify.gif)
 
 3. OMDB movie information
+![](movie.gif)
 
 4. Do what it says
 
